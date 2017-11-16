@@ -3,5 +3,6 @@ def position_taken?(board, index)
   if index == "O" || index = "X"
     return true
   elsif index == " "
+    return false
   end
 end
